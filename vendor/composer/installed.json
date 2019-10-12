@@ -1621,17 +1621,17 @@
     },
     {
         "name": "drupal/core",
-        "version": "8.7.3",
-        "version_normalized": "8.7.3.0",
+        "version": "8.7.8",
+        "version_normalized": "8.7.8.0",
         "source": {
             "type": "git",
             "url": "https://github.com/drupal/core.git",
-            "reference": "b8ca92d4274048aff6bb020c329596c0e9b91269"
+            "reference": "476f491b85306c09101106d9b66a5dbe73c21bf0"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/drupal/core/zipball/b8ca92d4274048aff6bb020c329596c0e9b91269",
-            "reference": "b8ca92d4274048aff6bb020c329596c0e9b91269",
+            "url": "https://api.github.com/repos/drupal/core/zipball/476f491b85306c09101106d9b66a5dbe73c21bf0",
+            "reference": "476f491b85306c09101106d9b66a5dbe73c21bf0",
             "shasum": ""
         },
         "require": {
@@ -1669,7 +1669,7 @@
             "symfony/http-kernel": "~3.4.14",
             "symfony/polyfill-iconv": "^1.0",
             "symfony/process": "~3.4.0",
-            "symfony/psr-http-message-bridge": "^1.0",
+            "symfony/psr-http-message-bridge": "^1.1.2",
             "symfony/routing": "~3.4.0",
             "symfony/serializer": "~3.4.0",
             "symfony/translation": "~3.4.0",
@@ -1681,7 +1681,8 @@
             "zendframework/zend-feed": "^2.4"
         },
         "conflict": {
-            "drush/drush": "<8.1.10"
+            "drush/drush": "<8.1.10",
+            "symfony/dom-crawler": ">=4"
         },
         "replace": {
             "drupal/action": "self.version",
@@ -1808,7 +1809,7 @@
             "symfony/debug": "^3.4.0",
             "symfony/phpunit-bridge": "^3.4.3"
         },
-        "time": "2019-06-05T19:21:30+00:00",
+        "time": "2019-10-02T18:41:30+00:00",
         "type": "drupal-core",
         "extra": {
             "merge-plugin": {
@@ -5067,17 +5068,17 @@
     },
     {
         "name": "webflo/drupal-core-strict",
-        "version": "8.7.3",
-        "version_normalized": "8.7.3.0",
+        "version": "8.7.8",
+        "version_normalized": "8.7.8.0",
         "source": {
             "type": "git",
             "url": "https://github.com/webflo/drupal-core-strict.git",
-            "reference": "d1c13f088843cf43ab4fd73407e7420ac321829b"
+            "reference": "21784560e6c9af85219d61f7f8941586d1b91fff"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/webflo/drupal-core-strict/zipball/d1c13f088843cf43ab4fd73407e7420ac321829b",
-            "reference": "d1c13f088843cf43ab4fd73407e7420ac321829b",
+            "url": "https://api.github.com/repos/webflo/drupal-core-strict/zipball/21784560e6c9af85219d61f7f8941586d1b91fff",
+            "reference": "21784560e6c9af85219d61f7f8941586d1b91fff",
             "shasum": ""
         },
         "require": {
@@ -5169,7 +5170,7 @@
             "symfony/dom-crawler": "v3.4.26",
             "symfony/phpunit-bridge": "v3.4.26"
         },
-        "time": "2019-06-05T19:30:53+00:00",
+        "time": "2019-10-02T19:30:48+00:00",
         "type": "metapackage",
         "notification-url": "https://packagist.org/downloads/",
         "license": [
